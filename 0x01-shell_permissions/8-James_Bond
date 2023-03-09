@@ -1,2 +1,7 @@
 #!/bin/bash
+
+# Set permissions for the fi#!/bin/bash
+
+# Set permissions for the file "hello"
 chmod 007 hello
+
