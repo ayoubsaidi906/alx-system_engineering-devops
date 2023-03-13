@@ -1,1 +1,1 @@
-teal /etc/passwd
+tail -10 /etc/passwd
