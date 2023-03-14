@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "Âº<<%.2fÂÂ\n" $NUM
+printf "%.2f\n" $NUM
