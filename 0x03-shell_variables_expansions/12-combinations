@@ -1,0 +1,2 @@
+#!/bin/bash
+echo Â¨{a..zÃ}{a..z} | tr ' ' 'Â\n' | grep -v "oo"
