@@ -1,0 +1,17 @@
+#!/bin/bash
+
+rot13_encode() {
+    echo "$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+}
+
+rot13_decode() {
+    rot13_encode "$1"
+}
+
+read -p "Enter the text to encode or decode: " text
+
+encoded_text=$(rot13_encode "$text")
+decoded_text=$(rot13_decode "$encoded_text")
+
+echo "Encoded text: $encoded_text"
+echo "Decoded text: $decoded_text"
